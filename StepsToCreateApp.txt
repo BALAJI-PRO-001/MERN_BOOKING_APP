@@ -1,0 +1,77 @@
+
+step 0: install the node js in your local system
+
+step 1: create root folder (mern-booking-app)
+
+step 2: create a sub folder (backend) inside the root folder
+
+step 3: in backend folder first create node essential files 
+        
+        Open new terminal 
+        -----------------
+        Type command: node init
+
+        Install dependencies for application
+        -------------------------------------
+        Type command: npm install cors express dotenv mongodb mongoose
+
+        Install dev dependencies for application
+        -----------------------------------------
+        Type command: npm install @types/cors @types/express @types/node ts-node typescrip nodemon
+
+        In backend folder contains package.json file open it addd some configurations
+        ------------------------------------------------------------------------------
+        {
+            "name": "backend",
+            "version": "1.0.0",
+            "description": "",
+            "main": "./src/index.ts",
+            "scripts": {
+              "dev": "nodemon"
+            },
+            "author": "Balaji",
+            "license": "ISC",
+            "dependencies": {
+              "cors": "^2.8.5",
+              "dotenv": "^16.4.5",
+              "express": "^4.18.3",
+              "mongodb": "^6.4.0",
+              "mongoose": "^8.2.0"
+            },
+            "devDependencies": {
+              "@types/cors": "^2.8.17",
+              "@types/express": "^4.17.21",
+              "@types/node": "^20.11.24",
+              "nodemon": "^3.1.0",
+              "ts-node": "^10.9.2",
+              "typescript": "^5.3.3"
+            }
+        }           
+
+    Create src folder for organization your ts source code
+    ------------------------------------------------------
+    rootFolder
+        /backend
+        /src
+        /node_modules
+        /package.json
+        /package-lock.json
+        /other-stuffs
+
+    Create .env file for store eve values for application
+    ------------------------------------------------------
+    rootFolder
+        /backend
+        /src
+        /node_modules
+        /package.json
+        /package-lock.json
+        /.env
+        /other-stuffs
+
+
+step 4: config mongodb database in cloud ...
+
+step 5: create a another sub folder (frontend) inside the rootFolder
+
+
