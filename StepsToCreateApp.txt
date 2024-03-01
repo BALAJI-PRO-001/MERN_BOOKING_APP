@@ -74,4 +74,28 @@ step 4: config mongodb database in cloud ...
 
 step 5: create a another sub folder (frontend) inside the rootFolder
 
+        Install vite
+        -------------
+        Type command: npm install vite@latest
+        > select React > typescript + swc
+
+        Next step
+        ----------
+        cd frontend
+        npm install
+        npm run dev (for testing)
+    
+        Finally install tailwindcss and other dev dependencies
+        ---------------------------------------------------
+        npm install -D tailwindcss postcss autoprefixer
+
+        Config the tailwindcss
+        ----------------------
+        Type command: npx tailwindcss init -p
+
+        inside the tailwind.config.js
+        -----------------------------
+        add ==> content: ["./index.html", "./src/**/*.{js, ts, jsx, tsx}"] 
+
+
 
